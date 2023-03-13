@@ -4,27 +4,21 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
-
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hansbankingg.HelloController">
    <left>
       <AnchorPane prefHeight="407.0" prefWidth="228.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
          <children>
-            <Circle fill="#ffffff00" layoutX="114.0" layoutY="171.0" radius="100.0" stroke="#fcfcfc" strokeType="INSIDE" />
-            <Label layoutX="75.0" layoutY="140.0" text="HANS" textFill="#d4af37">
-               <font>
-                  <Font name="Verdana Bold" size="24.0" />
-               </font>
-            </Label>
-            <Label layoutX="50.0" layoutY="171.0" text="BANKING" textFill="#d4af37">
-               <font>
-                  <Font name="Verdana Bold" size="24.0" />
-               </font>
-            </Label>
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="14.0" layoutY="100.0">
+               <image>
+                  <Image url="@HANSBanking.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
    </left>
