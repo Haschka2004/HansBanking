@@ -3,6 +3,8 @@ module com.example.hansbankingg {
     requires javafx.fxml;
 
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
+    requires jdk.httpserver;
 
     opens com.example.hansbankingg to javafx.fxml;
     exports com.example.hansbankingg;
