@@ -8,4 +8,6 @@ module com.example.hansbankingg {
 
     opens com.example.hansbankingg to javafx.fxml;
     exports com.example.hansbankingg;
+    exports DatenbankStuff;
+    opens DatenbankStuff to javafx.fxml;
 }

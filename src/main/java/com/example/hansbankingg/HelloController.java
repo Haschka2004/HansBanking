@@ -34,6 +34,7 @@ public class HelloController {
 
     @FXML
     public void speichernButton(ActionEvent e) {
+        /*
         boolean hasDigit = false;
         boolean hasLowercase = false;
         boolean hasUppercase = false;
@@ -75,6 +76,8 @@ public class HelloController {
                 error.setText("Passwort Kriterien wurden nicht berücksichtigt!");
             }
         }
+         */
+        //Alter Code oben, aber da wir doch welber Konten anlegen brauchen wir das Passwort nicht überprüfen.
     }
     }
 

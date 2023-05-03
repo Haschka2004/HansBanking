@@ -1,4 +1,4 @@
-package com.example.hansbankingg;
+package DatenbankStuff;
 
 import java.io.*;
 import java.net.InetSocketAddress;
@@ -9,8 +9,6 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
 
-import javax.sql.DataSource;
-
 /**
  * INSY Webshop-Server
  */
@@ -19,7 +17,7 @@ public class ServerForJdbc {
     /**
      * Port to bind to for HTTP service
      */
-    private int port = 8000;
+    private int port = 5555;
 
     /**
      * Connect to the database
